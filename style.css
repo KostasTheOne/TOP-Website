@@ -2,6 +2,7 @@ body{
     padding: 0;
     margin: 0;
 }
+/*This is basically the head of the site*/
 .hero,
 .container{
     background-color: #1F2937;
@@ -49,7 +50,7 @@ ul{
     
 }
 
-img{width: 570px;
+#board{width: 570px;
     height:362.8px;
     flex-shrink: 1;
 
@@ -64,4 +65,37 @@ button{
 }
 .container{
     padding-bottom: 150px;
+}
+
+/*This is the second part of the page, the information part*/
+.info{
+/* Temporary color to see the box */
+    background-color: bisque;
+}
+.header{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2930;
+    text-align: center; 
+    padding-top: 30px;  
+}
+.pics{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 0;
+
+}
+.illustration{
+    padding: 30px 40px;
+    width:140px ;
+    text-align: center;
+
+}
+.one,
+.two,
+.three,
+.four{
+    width: 150px;
+    padding-bottom:7px;
 }
