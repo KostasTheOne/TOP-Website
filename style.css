@@ -68,10 +68,7 @@ button{
 }
 
 /*This is the second part of the page, the information part*/
-.info{
-/* Temporary color to see the box */
-    background-color: bisque;
-}
+
 .header{
     font-size: 36px;
     font-weight: bolder;
@@ -98,4 +95,28 @@ button{
 .four{
     width: 150px;
     padding-bottom:7px;
+}
+
+/* third part: the quote part */
+
+.section{
+    background-color: #e5e7eb;
+    padding: 125px 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight:100;
+    text-align:start;
+    color:#1F2937;
+    width: 750px;
+}
+.name{
+    font-weight: bolder;
+    color: #1F2937;
+    padding-left: 520px;
 }
