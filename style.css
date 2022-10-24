@@ -1,6 +1,7 @@
 body{
     padding: 0;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 /*This is basically the head of the site*/
 .hero,
@@ -55,7 +56,7 @@ ul{
     flex-shrink: 1;
 
 }
-button{
+.button1{
     background-color: #3882f6;
     padding: 5px 24px;
     color: #f9faf8;
@@ -119,4 +120,55 @@ button{
     font-weight: bolder;
     color: #1F2937;
     padding-left: 520px;
+}
+
+/* Last part */
+
+.last{
+    background-color: #3882f6;
+    margin: 100px 280px;
+    padding: 50px 80px;
+    color: #f9faf8;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+}
+.call{
+    font-weight: 700;
+    font-size: 24px;
+    display: flex;
+}
+.signup{
+    color: #e5e7eb;
+    font-weight: 300;
+}
+.button2{
+    background-color: #3882f6;
+    padding: 5px 24px;
+    color: #f9faf8;
+    border-radius: 8px;
+    font-weight: bold;
+    border:solid 1.7px #f9faf8;
+}
+.button{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+/* Footer */
+
+.footer{
+    background-color: #1F2937;
+    color: #e5e7eb;
+    justify-content: center;
+    display: flex;
+    padding: 40px 0;
+    word-spacing: 2px; 
+    font-weight: 500;   
+}
+.copyrigth{
+    background-color: #1F2937;
+    text-align: end;
+    font-size:x-small;
 }
